@@ -1,0 +1,21 @@
+{
+  "name": "please-call-me",
+  "version": "1.0.0",
+  "description": "This service helps please call me user not to use ussd directly instead interact with UI",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "pleaseCallMe",
+    "javascript"
+  ],
+  "author": "Khanya Kupelo",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2",
+    "morgan": "^1.10.0"
+  }
+}
